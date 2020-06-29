@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav.navigation .collapse li:first-child {border: 0;}
 .nav.navigation .collapse li:last-child {border: 0;}
 .external_links {margin-top: 2em;}
-.external_links li {padding: 1em 0;}
+.external_links li {padding: 0.25em 0;}
 .external_links a {
 	width: 100%;
 	color: black;

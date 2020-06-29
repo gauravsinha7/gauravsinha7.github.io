@@ -27,7 +27,7 @@
 		<aside class="external_links">
 			<ul class="nav">
 			{% for item in site.menu_external %}
-				<li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+				<li><i class="fas {{ item.icon }} fa-fw"></i>&nbsp; <a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
 			{% endfor %}
 			</ul>
 		</aside>
