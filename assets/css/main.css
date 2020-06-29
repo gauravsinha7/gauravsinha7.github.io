@@ -312,6 +312,20 @@ pre {
 	margin-left: 40px;
 }
 
+.pub-highlight .link {
+	color: #0275d8 !important;
+	border-bottom: 1px dashed #0275d8 !important;
+}
+
+.pub-highlight .award, .pub-highlight .award a {
+	color: #f0ad4e !important;
+	font-weight: bold;
+}
+
+.pub-highlight .award a {
+	border-bottom: 1px dashed #f0ad4e !important;
+}
+
 /* Responsive sizes */
 @media only screen and (max-width: 320px) {
 	main header.mobile_header {height: 5em;}
