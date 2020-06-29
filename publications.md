@@ -32,4 +32,4 @@ layout: default
 [<a href="https://ieeexplore.ieee.org/document/9120821" class="link">IEEE Xplore</a>]
 </span>
 
-<span class="award"><i class="fas fa-graduation-cap fa-fw"></i>&nbsp; <a href="https://scholar.google.com/citations?hl=en&user=CjI4CRgAAAAJ">View full Google Scholar profile</a></span>
+<span class="award"><i class="fas fa-graduation-cap fa-fw"></i>&nbsp; <a href="https://scholar.google.com/citations?hl=en&user=CjI4CRgAAAAJ">View Google Scholar profile</a></span>
