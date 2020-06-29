@@ -13,10 +13,10 @@ menu_external:
  - title: gauravsinha952@gmail.com
    icon: fa-envelope
    url: mailto:gauravsinha952@gmail.com
- - title: @gauravsinha7
+ - title: gauravsinha7
    icon: fa-github
    url: https://www.github.com/gauravsinha7
- - title: @gaurav_sinha7
+ - title: gaurav_sinha7
    icon: fa-twitter
    url: https://twitter.com/gaurav_sinha7
 mathjax: false
