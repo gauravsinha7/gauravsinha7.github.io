@@ -1,27 +1,106 @@
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Projects</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">GitHub repositories that I've built.</p>
-<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
-  {% if site.projects.sort_by == 'stars' %}
-    {% assign sort_order = 'stargazers_count', 'last' %}
-  {% else %}
-    {% assign sort_order = 'pushed_at' %}
-  {% endif %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% include head.html %}
+	</head>
+	<body>
+		<div class="pure-container" data-effect="pure-effect-push">
+			<input type="checkbox" id="pure-toggle-left" class="pure-toggle hidden-md-up" data-toggle="left" />
 
-  {% if site.projects.exclude.archived && site.projects.exclude.forks %}
-    {% assign filtered_repos = site.github.public_repositories | where:'archived', false | where:'fork', false | sort: sort_order | reverse %}
-  {% elsif site.projects.exclude.archived %}
-    {% assign filtered_repos = site.github.public_repositories | where:'archived', false | sort: sort_order | reverse %}
-  {% elsif site.projects.exclude.forks %}
-    {% assign filtered_repos = site.github.public_repositories | where:'fork', false | sort: sort_order | reverse %}
-  {% else %}
-    {% assign filtered_repos = site.github.public_repositories | sort: sort_order | reverse %}
-  {% endif %}
+			<nav class="pure-drawer" data-position="left">
+				<div class="col-md-3 sidebar hidden-print">
+					{% include menu.html context="mobile" %}
+				</div>
+			</nav>
 
-  {% for repository in filtered_repos | limit: site.projects.limit %}
-    {% unless site.projects.exclude.projects contains repository.name %}
-      <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-        {% include repo-card.html %}
-      </div>
-    {% endunless %}
-  {% endfor %}
+			<div class="pure-pusher-container">
+				<div class="pure-pusher">
+					<label class="pure-toggle-label hidden-md-up" for="pure-toggle-left" data-toggle-label="left"><span class="pure-toggle-icon"></span></label>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-3 sidebar hidden-sm-down hidden-print">
+								{% include menu.html %}
+							</div>
+							<main class="content col-md-9" role="main">
+								{% include mobile_header.html %}
+								<article>
+									<h1>{{ page.title }}</h1>
+                                    {{ content }}
+
+{% for item in page.projects %}
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod == 1 %}
+    <div class="card-deck">
+    {% endif %}
+    <div class="card">
+        <img src="assets/images/projects/{{ item.image_name }}" class="card-img-top">
+        <div class="card-body">
+            <h4 class="card-title">{{ item.title }}</h4>
+            <div class="card-subtitle">{{ item.subtitle }}</div>
+            <p class="card-text">{{ item.description }}</p>
+            {% for link in item.links %}
+                <a type="button" class="btn btn-sm btn-info project-btn" href="{{ link.url }}"><i class="fas {{ link.icon }} fa-fw"></i>&nbsp; {{ link.text }}</a>
+            {% endfor %}
+        </div>
+    </div>
+    {% if mod == 0 or forloop.last %}
+    </div>
+    <br/>
+    {% endif %}
+
+{% endfor %}
+
+<!-- <div class="card-deck">
+  <div class="card">
+    <img src="assets/images/projects/counterexamples.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <button type="button" class="btn btn-link"><i class="fas fa-github fa-fw"></i>&nbsp; Link</button>
+      <button type="button" class="btn btn-link"><i class="fas fa-github fa-fw"></i>&nbsp; Link</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="assets/images/projects/semantic_projection.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
 </div>
+<br/> -->
+
+									<small class="text-muted">Last updated on {{ page.date | date: "%B %d, %Y" }}</small>
+								</article>
+								<footer class="text-xs-center hidden-print">
+									<small class="text-muted">© {{ site.time | date: '%Y' }} Gabriel Grand. All rights reserved. Built on <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://pages.github.com/">GitHub Pages</a>.</small>
+								</footer>
+							</main>
+						</div>
+					</div>
+				</div>
+			</div>
+			<label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.1.0/anchor.js"></script>
+		<script>
+		anchors.options = {
+			placement: 'right',
+			visible: 'touch ',
+			truncate: 128
+		};
+		anchors.add('article h2, article h3, article h4, article h5, article h6');
+
+		$(function() {
+			$("table").addClass("table");
+			$("table").wrap('<div class="table-responsive"></div>');
+		});
+		</script>
+		{% if site.mathjax %}
+		<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+		{% endif %}
+	</body>
+</html>

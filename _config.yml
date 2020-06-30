@@ -6,7 +6,7 @@ menu:
  - page: Publications
    url: /publications
  - page: Projects
-   url: /_layouts/projects.html
+   url: /project
  - page: Contact
    url: /contact
 menu_external:

@@ -304,6 +304,8 @@ pre {
 	.col-sm-2 {width: 16.66666667%;}
 }
 
+/* Custom CSS */
+
 #profile-img {
 	width: 200px;
 	height: auto;
@@ -324,6 +326,36 @@ pre {
 
 .pub-highlight .award a {
 	border-bottom: 1px dashed #f0ad4e !important;
+}
+
+.card {
+	padding: 1rem;
+	width: 200px;
+}
+
+.card-subtitle {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	margin: 0.5em 0em 0.8em 0em;
+}
+
+.card-text {
+	font-size: 1em;
+	line-height: 1.4em;
+}
+
+.card-img-top {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.project-btn {
+	font-family: sans-serif;
+	border-bottom: none !important;
+	color: #ffffff !important;
+	margin-bottom: 0.5em;
 }
 
 /* Responsive sizes */
