@@ -5,23 +5,23 @@
 a,
 a:link,
 a:visited {
-	color: black;
+	color: #e6e6e6;
 	text-decoration: none;
 }
 a:hover,
 a:active {
-	color: black;
+	color: #e6e6e6;
 	text-decoration: underline;
 }
 article a,
 article a:link,
 article a:visited {
-	border-bottom: 1px dashed black;
+	border-bottom: 1px dashed white;
 }
 article a:hover,
 article a:active {
 	text-decoration: none;
-	border-bottom: 1px dotted black;
+	border-bottom: 1px dotted white;
 }
 
 a.social,
@@ -45,10 +45,10 @@ article a.anchorjs-link {
 body {
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	line-height: 1.8;
-	background-color: rgb(241, 241, 241);
+	background-color: rgb(29, 29, 29);
 }
-body p {font-size: 1.1em;}
-body blockquote p {font-size: 1.4em;}
+body p {font-size: 1.1em; color: lightgrey}
+body blockquote p {font-size: 1.4em; color: lightgrey}
 
 /* Ensure full-height columns */
 .container-fluid,
@@ -82,29 +82,30 @@ main article,
 .mobile_header {
 	width: 100%;
 	margin: 0 auto 3em auto;
-	background: white;
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+	background: #1d1d1d;
+	box-shadow: 0 0 2px #999999;
 }
 .mobile_header {padding: 1.5em 0.5em 0.25em 0.5em;}
 h1, h2, h3, h4, h5, h6 {
 	font-family: Arial, sans-serif;
 	font-family: 'Helvetica Neue', Arial, sans-serif;
 	font-family: Montserrat, 'Helvetica Neue', Arial, sans-serif;
-	margin-bottom: 0.5em;
+	margin-bottom: 1.0em;
+	color: #black
 }
 
 /* Style and structure the menu */
 .sidebar.col-md-3 {
-	padding: 2em 1em;
+	padding: 4em 1em;
 	font-size: 1.2em;
-	background: white;
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+	background: #1d1d1d;
+	box-shadow: 0 0 2px #999999;
 }
 .sidebar h2 {
 	margin: 0 auto 1em auto;
 	text-align: center;
 }
-.sidebar h2 a {color: black;}
+.sidebar h2 a {color: #e6e6e6;}
 .pure-toggle-label[data-toggle-label="left"],
 .pure-toggle-label[for="pure-toggle-left"] {
 	position: absolute;
@@ -112,16 +113,16 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0.25em;
 }
 .nav.navigation li {
-	padding: 1em 0;
-	position: relative;
-	border-top: 1px solid rgba(51, 51, 51, 0.1);
+	padding: 2em 2em;
+	position: center;
+	border-top: 2px solid #707070;
 }
 .nav.navigation li:last-child {
-	border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+	border-bottom: 2px solid #707070;
 }
 .nav.navigation li a {
 	width: 100%;
-	color: #333333;
+	color: #e6e6e6;
 }
 .nav.navigation li a:hover {
 	color: #707070;
@@ -133,11 +134,11 @@ h1, h2, h3, h4, h5, h6 {
 .external_links li {padding: 0.25em 0;}
 .external_links a {
 	width: 100%;
-	color: black;
+	color: #e6e6e6;
 	text-decoration: underline;
 }
 .external_links a:hover {
-	color: #333333;
+	color: #e6e6e6;
 	text-decoration: none;
 }
 form[role="search"] {margin-top: 2em;}
@@ -307,8 +308,8 @@ pre {
 /* Custom CSS */
 
 #profile-img {
-	width: 200px;
-	height: auto;
+	width: 250px;
+	height: 230px;
 	border-radius: 50%;
 	float: right;
 	margin-left: 40px;
@@ -330,7 +331,16 @@ pre {
 
 .card {
 	padding: 1rem;
-	width: 200px;
+	background-repeat: no-repeat;
+  background-position: 50% 50%;
+	width: 150px;
+	height: 150px;
+	position:relative;
+}
+
+.card-deck{
+	width: auto;
+	height: 150px;
 }
 
 .card-subtitle {
@@ -344,6 +354,7 @@ pre {
 .card-text {
 	font-size: 1em;
 	line-height: 1.4em;
+	color: black;
 }
 
 .card-img-top {

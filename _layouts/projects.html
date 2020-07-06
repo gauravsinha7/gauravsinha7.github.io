@@ -26,51 +26,28 @@
 								<article>
 									<h1>{{ page.title }}</h1>
                                     {{ content }}
-
-{% for item in page.projects %}
-    {% assign mod = forloop.index | modulo: 2 %}
-    {% if mod == 1 %}
-    <div class="card-deck">
-    {% endif %}
-    <div class="card">
-        <img src="assets/images/projects/{{ item.image_name }}" class="card-img-top">
-        <div class="card-body">
-            <h4 class="card-title">{{ item.title }}</h4>
-            <div class="card-subtitle">{{ item.subtitle }}</div>
-            <p class="card-text">{{ item.description }}</p>
-            {% for link in item.links %}
-                <a type="button" class="btn btn-sm btn-info project-btn" href="{{ link.url }}"><i class="fas {{ link.icon }} fa-fw"></i>&nbsp; {{ link.text }}</a>
-            {% endfor %}
-        </div>
-    </div>
-    {% if mod == 0 or forloop.last %}
-    </div>
-    <br/>
-    {% endif %}
-
-{% endfor %}
-
-<!-- <div class="card-deck">
-  <div class="card">
-    <img src="assets/images/projects/counterexamples.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <button type="button" class="btn btn-link"><i class="fas fa-github fa-fw"></i>&nbsp; Link</button>
-      <button type="button" class="btn btn-link"><i class="fas fa-github fa-fw"></i>&nbsp; Link</button>
-    </div>
-  </div>
-  <div class="card">
-    <img src="assets/images/projects/semantic_projection.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h4 class="card-title">Card title</h4>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-<br/> -->
-
+									{% for item in page.projects %}
+										{% assign mod = forloop.index | modulo: 2 %}
+										{% if mod == 1 %}
+										<div class="card-deck">
+										{% endif %}
+										<div class="card">
+											<div class="card-body">
+												<h4 class="card-title">{{ item.title }}</h4>
+												<div class="card-subtitle">{{ item.subtitle }}</div>
+												<p class="card-text">{{ item.description }}</p>
+											</div>
+										</div>
+										{% if mod == 0 %}
+										</div>
+										<br/>
+										{% elsif forloop.last %}
+										<!-- Dummy card to ensure proper spacing when there's an odd number of cards -->
+										<div class="card" style="visibility: hidden"></div>
+										</div>
+										<br/>
+										{% endif %}
+									{% endfor %}
 									<small class="text-muted">Last updated on {{ page.date | date: "%B %d, %Y" }}</small>
 								</article>
 								<footer class="text-xs-center hidden-print">
