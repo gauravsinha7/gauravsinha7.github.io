@@ -7,6 +7,8 @@ menu:
    url: /publications
  - page: Projects
    url: /projects
+ - page: Contact
+   url: /contact   
 menu_external:
  - title: gauravsinha952@gmail.com
    icon: fa-envelope
