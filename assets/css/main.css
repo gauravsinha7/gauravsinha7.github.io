@@ -39,6 +39,11 @@ article a.anchorjs-link {
 .fa-twitter:hover:before {color: #3C93D5;}
 .fa-gplus:before {color: #DD4B39;}
 .fa-gplus:hover:before {color: #C43220;}
+.fa-envelope:before {color: #DD4B39;}
+.fa-envelope:hover:before {color: #C43220;}
+.fa-github:before {color: lightgrey;}
+.fa-github:hover:before {color: grey;}
+
 
 /* Defaults */
 
@@ -83,7 +88,7 @@ main article,
 	width: 100%;
 	margin: 0 auto 3em auto;
 	background: #1d1d1d;
-	box-shadow: 0 0 2px #999999;
+	color: grey;
 }
 .mobile_header {padding: 1.5em 0.5em 0.25em 0.5em;}
 h1, h2, h3, h4, h5, h6 {
@@ -91,21 +96,24 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Helvetica Neue', Arial, sans-serif;
 	font-family: Montserrat, 'Helvetica Neue', Arial, sans-serif;
 	margin-bottom: 1.0em;
+	margin-top: 0.5em;
 	color: #black
 }
 
 /* Style and structure the menu */
 .sidebar.col-md-3 {
-	padding: 4em 1em;
+	padding: 5em 1em;
 	font-size: 1.2em;
 	background: #1d1d1d;
 	box-shadow: 0 0 2px #999999;
+	width: 25rem;
 }
 .sidebar h2 {
-	margin: 0 auto 1em auto;
+	margin: 0.9em auto 1.8em auto;
 	text-align: center;
+	font-size: 2.2em;
 }
-.sidebar h2 a {color: #e6e6e6;}
+.sidebar h2 a {color: grey;}
 .pure-toggle-label[data-toggle-label="left"],
 .pure-toggle-label[for="pure-toggle-left"] {
 	position: absolute;
@@ -115,10 +123,12 @@ h1, h2, h3, h4, h5, h6 {
 .nav.navigation li {
 	padding: 2em 2em;
 	position: center;
-	border-top: 2px solid #707070;
+	font-style: italic;
+	font-size: 1.1em;
+	border-top: 0.2px solid #707070;
 }
 .nav.navigation li:last-child {
-	border-bottom: 2px solid #707070;
+	border-bottom: 0.5px solid #707070;
 }
 .nav.navigation li a {
 	width: 100%;
@@ -309,64 +319,61 @@ pre {
 
 #profile-img {
 	width: 250px;
-	height: 230px;
+	height: 240px;
 	border-radius: 50%;
 	float: right;
 	margin-left: 40px;
 }
 
 .pub-highlight .link {
-	color: #0275d8 !important;
-	border-bottom: 1px dashed #0275d8 !important;
+	color: #A3DFFF !important;
+	border-bottom: 1px dashed #A3DFFF !important;
 }
 
 .pub-highlight .award, .pub-highlight .award a {
-	color: #f0ad4e !important;
+	color: #FFE483 !important;
 	font-weight: bold;
 }
 
 .pub-highlight .award a {
-	border-bottom: 1px dashed #f0ad4e !important;
+	border-bottom: 1px dashed #FFE483 !important;
 }
 
 .card {
 	padding: 1rem;
 	background-repeat: no-repeat;
-  background-position: 50% 50%;
-	width: 150px;
-	height: 150px;
+	background-color: #E1E1E1;
 	position:relative;
 }
 
 .card-deck{
-	width: auto;
-	height: 150px;
+	width: 76rem;
+	height: 5rem;
 }
 
-.card-subtitle {
-	font-style: italic;
-	font-weight: normal;
-	font-size: 1.2em;
-	line-height: 1.4em;
-	margin: 0.5em 0em 0.8em 0em;
+.card-title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.6em;
+	line-height: 1.5em;
+	color: #5e5f5f;
 }
 
 .card-text {
 	font-size: 1em;
 	line-height: 1.4em;
-	color: black;
-}
-
-.card-img-top {
-	width: 100%;
-	margin-bottom: 1rem;
+	color: grey;
 }
 
 .project-btn {
 	font-family: sans-serif;
 	border-bottom: none !important;
-	color: #ffffff !important;
-	margin-bottom: 0.5em;
+	color: #ededed !important;
+	background-color: #707070;
+	box-shadow: #707070;
+	position: absolute;
+	right:    1.5rem;
+	bottom:   1.0rem;
 }
 
 /* Responsive sizes */

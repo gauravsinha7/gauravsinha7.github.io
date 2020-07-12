@@ -1,9 +1,10 @@
 ---
 title: "Research"
 summary: "This page contains brief information about the Patents and Papers that are under review or published"
-date: 2020-06-30
+date: 2020-07-06
 layout: default
 ---
+<hr>
 ## Patents
 
 **Method and System of Network Handover on Transport Layer.** Madhan Raj, Karthikeyan A,  S Jayaseelan, Gunjan K Chaudhary, Gaurav Sinha, S Sabareesh *Application Number: 201941033010*.<br/>
@@ -16,9 +17,12 @@ layout: default
     [<a href="https://drive.google.com/file/d/1jmHJ0IAgP3Pa969DaR_VwM2jC-c8uNIz/view?usp=sharing" class="link">Indian Patent Application </a>]
     <span class="award"><i class="fas fa-award fa-fw"></i>&nbsp; Awarded as A1 grade by Samsung. *[Top 5%]* </span>
 
+<hr>
 
 ## Working paper
 **EDCOVASP: Early Diagnosis of SARS-COV-2** *Update will be soon*
+
+<hr>
 
 ## Published papers
 
@@ -33,3 +37,5 @@ layout: default
 </span>
 
 <span class="award"><i class="fas fa-graduation-cap fa-fw"></i>&nbsp; <a href="https://scholar.google.com/citations?hl=en&user=CjI4CRgAAAAJ">View Google Scholar profile</a></span>
+
+<hr>

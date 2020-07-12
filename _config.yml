@@ -4,11 +4,9 @@ menu:
  - page: Profile
    url: /index
  - page: Publications
-   url: /publications
+   url: /publication
  - page: Projects
-   url: /projects
- - page: Contact
-   url: /contact
+   url: /projects_
 menu_external:
  - title: gauravsinha952@gmail.com
    icon: fa-envelope
