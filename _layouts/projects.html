@@ -35,7 +35,7 @@
 											<div class="card-body">
 												<h4 class="card-title">{{ item.title }}</h4>
 												<div class="card-subtitle">{{ item.subtitle }}</div>
-												<p class="card-text">{{ item.description }}</p> <br>
+												<p class="card-text">{{ item.description }}</p><br>
 												{% for link in item.links %}
 													<a type="button" class="btn btn-info project-btn" href="{{ link.url }}"><i class="fas {{ link.icon }} fa-fw"></i>&nbsp; {{ link.text }}</a>
 												{% endfor %}
@@ -54,7 +54,6 @@
 									<small class="text-muted">Last updated on {{ page.date | date: "%B %d, %Y" }}</small>
 								</article>
 								<footer class="text-xs-center hidden-print">
-									<small class="text-muted">© {{ site.time | date: '%Y' }} Gaurav Sinha. All rights reserved. Built on <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://pages.github.com/">GitHub Pages</a>.</small>
 								</footer>
 							</main>
 						</div>

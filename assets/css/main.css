@@ -52,8 +52,8 @@ body {
 	line-height: 1.8;
 	background-color: rgb(241, 241, 241);
 }
-body p {font-size: 1.1em}
-body blockquote p {font-size: 1.4em}
+body p {font-size: 1.1em;}
+body blockquote p {font-size: 1.4em;}
 
 /* Ensure full-height columns */
 .container-fluid,
@@ -95,10 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Arial, sans-serif;
 	font-family: 'Helvetica Neue', Arial, sans-serif;
 	font-family: Montserrat, 'Helvetica Neue', Arial, sans-serif;
-	margin-bottom: 1.0em;
-	margin-top: 0.5em;
 	margin-bottom: 0.5em;
-	color: #333333;
 }
 
 /* Style and structure the menu */
@@ -111,8 +108,6 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar h2 {
 	margin: 0 auto 1em auto;
 	text-align: center;
-	font-size: 2.2em;
-	color: #333333
 }
 .sidebar h2 a {color: black;}
 .pure-toggle-label[data-toggle-label="left"],
@@ -143,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 .external_links li {padding: 0.25em 0;}
 .external_links a {
 	width: 100%;
-	color: black
+	color: black;
 	text-decoration: underline;
 }
 .external_links a:hover {
@@ -316,12 +311,26 @@ pre {
 
 /* Custom CSS */
 
+#profile-div {
+	float: right;
+	margin: 0px 0px 20px 20px;
+	text-align: center;
+}
+
 #profile-img {
 	width: 250px;
-	height: 240px;
+	height: 250px;
 	border-radius: 50%;
 	float: right;
-	margin-left: 40px;
+	margin-bottom: 10px;
+}
+
+.profile-btn {
+	font-family: sans-serif;
+	border-bottom: none !important;
+	color: #ffffff !important;
+	font-size: 14px;
+	width: 100px;
 }
 
 .pub-highlight .link {
@@ -341,13 +350,14 @@ pre {
 .card {
 	padding: 1rem;
 	background-repeat: no-repeat;
-	background-color: rgb(241, 241, 241);;
+	background-color: white;
+	width: 100%;
+  height: 100%;
 	position:relative;
 }
 
-.card-deck{
-	width: 76rem;
-	height: 5rem;
+.card-deck {
+	width: 100%
 }
 
 .card-title {
@@ -355,6 +365,7 @@ pre {
 	font-weight: bold;
 	font-size: 1.6em;
 	line-height: 1.5em;
+	width: 100%;
 	color: #333333;
 }
 
@@ -362,6 +373,7 @@ pre {
 	font-size: 1em;
 	line-height: 1.4em;
 	color: #333333;
+	width: 100%
 }
 
 .project-btn {
@@ -373,6 +385,33 @@ pre {
 	position: absolute;
 	right:    1.5rem;
 	bottom:   1.0rem;
+}
+
+.org-row {
+	min-height: 0px !important;
+	margin: 1.5em 0em 1.5em 0em;
+}
+
+.org-img {
+	width: 100%;
+}
+
+.org-title {
+	margin-bottom: 0.2em;
+}
+
+.org-subtitle {
+	font-style: italic;
+	margin-bottom: 0.4em;
+}
+
+.contact-list {
+	margin: 24px 0px;
+}
+
+.contact-list li {
+	font-size: 18px;
+	margin-top: 12px;
 }
 
 /* Responsive sizes */
@@ -431,6 +470,8 @@ pre {
 		left: 0.25em;
 	}
 }
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+}
 @media only screen and (min-width: 992px) {}
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}
