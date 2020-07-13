@@ -5,23 +5,23 @@
 a,
 a:link,
 a:visited {
-	color: #e6e6e6;
+	color: black;
 	text-decoration: none;
 }
 a:hover,
 a:active {
-	color: #e6e6e6;
+	color: black;
 	text-decoration: underline;
 }
 article a,
 article a:link,
 article a:visited {
-	border-bottom: 1px dashed white;
+	border-bottom: 1px dashed black;
 }
 article a:hover,
 article a:active {
 	text-decoration: none;
-	border-bottom: 1px dotted white;
+	border-bottom: 1px dotted black;
 }
 
 a.social,
@@ -41,7 +41,7 @@ article a.anchorjs-link {
 .fa-gplus:hover:before {color: #C43220;}
 .fa-envelope:before {color: #DD4B39;}
 .fa-envelope:hover:before {color: #C43220;}
-.fa-github:before {color: lightgrey;}
+.fa-github:before {color: black;}
 .fa-github:hover:before {color: grey;}
 
 
@@ -50,10 +50,10 @@ article a.anchorjs-link {
 body {
 	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	line-height: 1.8;
-	background-color: rgb(29, 29, 29);
+	background-color: rgb(241, 241, 241);
 }
-body p {font-size: 1.1em; color: lightgrey}
-body blockquote p {font-size: 1.4em; color: lightgrey}
+body p {font-size: 1.1em}
+body blockquote p {font-size: 1.4em}
 
 /* Ensure full-height columns */
 .container-fluid,
@@ -87,8 +87,8 @@ main article,
 .mobile_header {
 	width: 100%;
 	margin: 0 auto 3em auto;
-	background: #1d1d1d;
-	color: grey;
+	background: white;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
 }
 .mobile_header {padding: 1.5em 0.5em 0.25em 0.5em;}
 h1, h2, h3, h4, h5, h6 {
@@ -97,23 +97,24 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Montserrat, 'Helvetica Neue', Arial, sans-serif;
 	margin-bottom: 1.0em;
 	margin-top: 0.5em;
-	color: #black
+	margin-bottom: 0.5em;
+	color: #333333;
 }
 
 /* Style and structure the menu */
 .sidebar.col-md-3 {
-	padding: 5em 1em;
+	padding: 2em 1em;
 	font-size: 1.2em;
-	background: #1d1d1d;
-	box-shadow: 0 0 2px #999999;
-	width: 25rem;
+	background: white;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
 }
 .sidebar h2 {
-	margin: 0.9em auto 1.8em auto;
+	margin: 0 auto 1em auto;
 	text-align: center;
 	font-size: 2.2em;
+	color: #333333
 }
-.sidebar h2 a {color: grey;}
+.sidebar h2 a {color: black;}
 .pure-toggle-label[data-toggle-label="left"],
 .pure-toggle-label[for="pure-toggle-left"] {
 	position: absolute;
@@ -121,18 +122,16 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0.25em;
 }
 .nav.navigation li {
-	padding: 2em 2em;
-	position: center;
-	font-style: italic;
-	font-size: 1.1em;
-	border-top: 0.2px solid #707070;
+	padding: 1em 0;
+	position: relative;
+	border-top: 1px solid rgba(51, 51, 51, 0.1);
 }
 .nav.navigation li:last-child {
-	border-bottom: 0.5px solid #707070;
+	border-bottom: 1px solid rgba(51, 51, 51, 0.1);
 }
 .nav.navigation li a {
 	width: 100%;
-	color: #e6e6e6;
+	color: #333333;
 }
 .nav.navigation li a:hover {
 	color: #707070;
@@ -144,11 +143,11 @@ h1, h2, h3, h4, h5, h6 {
 .external_links li {padding: 0.25em 0;}
 .external_links a {
 	width: 100%;
-	color: #e6e6e6;
+	color: black
 	text-decoration: underline;
 }
 .external_links a:hover {
-	color: #e6e6e6;
+	color: #333333;
 	text-decoration: none;
 }
 form[role="search"] {margin-top: 2em;}
@@ -326,23 +325,23 @@ pre {
 }
 
 .pub-highlight .link {
-	color: #A3DFFF !important;
-	border-bottom: 1px dashed #A3DFFF !important;
+	color: #0275d8 !important;
+	border-bottom: 1px dashed #0275d8 !important;
 }
 
 .pub-highlight .award, .pub-highlight .award a {
-	color: #FFE483 !important;
+	color: #f0ad4e !important;
 	font-weight: bold;
 }
 
 .pub-highlight .award a {
-	border-bottom: 1px dashed #FFE483 !important;
+	border-bottom: 1px dashed #f0ad4e !important;
 }
 
 .card {
 	padding: 1rem;
 	background-repeat: no-repeat;
-	background-color: #E1E1E1;
+	background-color: rgb(241, 241, 241);;
 	position:relative;
 }
 
@@ -356,21 +355,21 @@ pre {
 	font-weight: bold;
 	font-size: 1.6em;
 	line-height: 1.5em;
-	color: #5e5f5f;
+	color: #333333;
 }
 
 .card-text {
 	font-size: 1em;
 	line-height: 1.4em;
-	color: grey;
+	color: #333333;
 }
 
 .project-btn {
 	font-family: sans-serif;
-	border-bottom: none !important;
-	color: #ededed !important;
-	background-color: #707070;
-	box-shadow: #707070;
+	border-bottom: #A4A4A4 !important;
+	color: white !important;
+	background-color: #A4A4A4;
+	box-shadow: #A4A4A4;
 	position: absolute;
 	right:    1.5rem;
 	bottom:   1.0rem;
