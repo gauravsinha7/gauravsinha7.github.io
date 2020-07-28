@@ -26,6 +26,9 @@ layout: default
 
 ## Published papers
 
+**QSOCKS: O-RTT proxification Design of Socks protocol for QUIC.** Madhan Raj, Sukhdeep Singh, S Jayaseelan, Mukesh K Maheshwari, Gaurav Sinha, Gunjan K Chaudhary. *Accepted in IEEE Access Journal* (July, 2020). <br/>
+</span>
+
 **Cross-Layer QUIC (CQUIC) for Next Generation Mobile Networks.** Gaurav Sinha, Madhan Raj, S Jayaseelan, Gunjan K Chaudhary.  *at 18th Edition of WCNC*, Seoul, South Korea (June, 2020).<br/>
 <span class="pub-highlight">
 [<a href="https://ieeexplore.ieee.org/document/9120850" class="link">IEEE Xplore</a>]
