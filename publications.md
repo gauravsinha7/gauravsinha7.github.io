@@ -28,7 +28,7 @@ layout: default
 **Generic Search Optimizer and Library Books Recommendation System.** Chandan Suri, Gaurav Sinha, Arpita Singh, Shalini Batra. *at International Research Journal of Engineering and Technology (IRJET) Volume 7, Issue 8* (August, 2020). <br/>
 <span class="pub-highlight">
 [<a href="https://irjet.net/archives/V7/i8/IRJET-V7I8114.pdf" class="link">IRJET Archieve</a>]
-</span>
+</span> <br/>
 
 **QSOCKS: O-RTT proxification Design of Socks protocol for QUIC.** Madhan Raj, Sukhdeep Singh, S Jayaseelan, Mukesh K Maheshwari, Gaurav Sinha, Gunjan K Chaudhary. *at IEEE Access Journal* (July, 2020). <br/>
 <span class="pub-highlight">
