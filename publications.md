@@ -4,7 +4,6 @@ summary: "This page contains brief information about the Patents and Papers that
 date: 2020-07-06
 layout: default
 ---
-<hr>
 ## Patents
 
 **Method and System of Network Handover on Transport Layer.** Madhan Raj, Karthikeyan A,  S Jayaseelan, Gunjan K Chaudhary, Gaurav Sinha, S Sabareesh *Application Number: 201941033010*.<br/>
@@ -25,6 +24,16 @@ layout: default
 <hr>
 
 ## Published papers
+
+**Generic Search Optimizer and Library Books Recommendation System.** Chandan Suri, Gaurav Sinha, Arpita Singh, Shalini Batra. *at International Research Journal of Engineering and Technology (IRJET) Volume 7, Issue 8* (August, 2020). <br/>
+<span class="pub-highlight">
+[<a href="https://irjet.net/archives/V7/i8/IRJET-V7I8114.pdf" class="link">IRJET Archieve</a>]
+</span> <br/>
+
+**QSOCKS: O-RTT proxification Design of Socks protocol for QUIC.** Madhan Raj, Sukhdeep Singh, S Jayaseelan, Mukesh K Maheshwari, Gaurav Sinha, Gunjan K Chaudhary. *at IEEE Access Journal* (July, 2020). <br/>
+<span class="pub-highlight">
+[<a href="https://ieeexplore.ieee.org/abstract/document/9153913/" class="link">IEEE Xplore</a>]
+</span>
 
 **Cross-Layer QUIC (CQUIC) for Next Generation Mobile Networks.** Gaurav Sinha, Madhan Raj, S Jayaseelan, Gunjan K Chaudhary.  *at 18th Edition of WCNC*, Seoul, South Korea (June, 2020).<br/>
 <span class="pub-highlight">
