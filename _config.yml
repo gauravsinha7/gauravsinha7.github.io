@@ -8,7 +8,9 @@ menu:
  - page: Projects
    url: /projects
  - page: Cirruculum Vitae
-   url: /cv       
+   url: /cv
+ - page: Awards and Achievements
+   url: /awards
 menu_external:
  - title: gauravsinha952@gmail.com
    icon: fa-envelope
