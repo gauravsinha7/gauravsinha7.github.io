@@ -7,7 +7,7 @@ layout: default
 <br>
 ## Awards
 
-**Recipient of Samsung Citizen Award with Award Money of INR 8000 in Technical Innovation Category [H1,2020].
+**Recipient of Samsung Citizen Award with Award Money of INR 8000 in Technical Innovation Category [H1,2020].**
 
 **Recipient of Samsung Citizen Award with Award Money of INR 8000 in Advanced Development Category [H1,2020].
 
