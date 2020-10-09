@@ -1,7 +1,7 @@
 ---
 title: "Research"
 summary: "This page contains brief information about the Patents and Papers that are under review or published"
-date: 2020-07-06
+date: 2020-10-10
 layout: default
 ---
 ## Patents
@@ -13,9 +13,7 @@ layout: default
 
 **QSOCKS: Design and Method of Socks over QUIC.** Madhan Raj, S Jayaseelan, Gaurav Sinha, Gunjan K Chaudhary *Application Number: 201941033010*.<br/>
 <span class="pub-highlight">
-    [<a href="https://drive.google.com/file/d/1jmHJ0IAgP3Pa969DaR_VwM2jC-c8uNIz/view?usp=sharing" class="link">Indian Patent Application </a>]
-    <span class="award"><i class="fas fa-award fa-fw"></i>&nbsp; Awarded as A1 grade by Samsung. *[Top 5%]* </span>
-
+    [<a href="https://patents.google.com/patent/US20200288316A1/en" class="link">US Patent </a>]
 <hr>
 
 ## Working paper
