@@ -11,7 +11,7 @@ layout: default
     [<a href="https://drive.google.com/file/d/1ku6dwUkjlUoPSmkXW-cISt-FfalmZ00Q/view?usp=sharing" class="link">Indian Patent Application </a>]
     <span class="award"><i class="fas fa-award fa-fw"></i>&nbsp; Awarded as A1 grade by Samsung. *[Top 5%]* </span>
 
-**QSOCKS: Design and Method of Socks over QUIC.** Madhan Raj, S Jayaseelan, Gaurav Sinha, Bhagwan Dass Swami, Gunjan K Chaudhary, Karthikeyan A <br/>
+**Method and System for MPQUIC over QSocks in Wireless Network** Madhan Raj, S Jayaseelan, Gaurav Sinha, Bhagwan Dass Swami, Gunjan K Chaudhary, Karthikeyan A <br/>
 <span class="pub-highlight">
     [<a href="https://patents.google.com/patent/US20200288316A1/en" class="link">US Patent </a>]
 <hr>
