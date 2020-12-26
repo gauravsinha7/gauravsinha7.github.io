@@ -1,22 +1,18 @@
 ---
 title: "Awards and Achievements"
 summary: "Information Regarding Awards and Achievements"
-date: 2020-08-19
+date: 2020-12-26
 layout: default
 ---
 
 ## Awards
 
-* **Recipient of Samsung Citizen Award with Award Money of INR 8000 in Technical Innovation Category [H1,2020].**
-
-* **Recipient of Samsung Citizen Award with Award Money of INR 8000 in Advanced Development Category [H1,2020].**
-
-* **Merit Award for 5G ideation Contest with Award Money of INR 25000 for Proof of Concept over QUIC for gaming applications in Samsung Research, Bangalore.**
-
-* **Recipient of Samsung Citizen Award with Award Money of INR 8000 in Technical Innovation Category [Q3,2019].**
-
-* **Recipient of Thapar Institute of Engineering and Technology. [2014-2016].**
-
+* **Winner of Mobile Business President TM Roh for contribution in “World First 5G Standalone Launch”. [Q3, 2020] **
+* **Winner of  Merit Award  for team solution presented in  5G Ideation Contest  for  gaming solution using QUIC [May 2020]**
+* **Received Samsung Citizen Award as ‘Technical Innovator’ at Samsung Research, Bangalore [H1,2020]**
+* **Received Samsung Citizen Award in ‘Advance Development ‘Category at Samsung Research, Bangalore [H1,2020]**
+* **Received Samsung Citizen Award in ‘Research to Development’ Category  at Samsung Research, Bangalore [Q3,2019]**
+* **Recipient of Merit Scholarship for  two consecutive years [2014, 2015]**
 
 ## Achievements
 
