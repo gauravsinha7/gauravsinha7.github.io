@@ -1,7 +1,7 @@
 ---
 title: "Research"
 summary: "This page contains brief information about the Patents and Papers that are under review or published"
-date: 2020-10-10
+date: 2020-12-26
 layout: default
 ---
 ## Patents
