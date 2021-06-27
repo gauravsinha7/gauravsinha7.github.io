@@ -1,12 +1,12 @@
 ---
 title: "Research"
 summary: "This page contains brief information about the Patents and Papers that are under review or published"
-date: 2020-12-26
+date: 2021-12-26
 layout: default
 ---
 ## Patents
 
-**Method and System of Network Handover on Transport Layer.** Madhan Raj, Karthikeyan A,  S Jayaseelan, Gunjan K Chaudhary, Gaurav Sinha, S Sabareesh *Application Number: 201941033010*.<br/>
+**Method and System of Network Handover on Transport Layer.** Madhan Raj, Karthikeyan A,  S Jayaseelan, Gunjan K Chaudhary, Gaurav Sinha, S Sabareesh<br/>
 <span class="pub-highlight">
     [<a href="https://patents.google.com/patent/US20210092657A1/en" class="link">US Patent </a>]
 
