@@ -1,12 +1,12 @@
 ---
 title: "Awards and Achievements"
 summary: "Information Regarding Awards and Achievements"
-date: 2020-12-26
+date: 2020-06-26
 layout: default
 ---
 
 ## Awards
-
+* **Winner of Samsung Excellence Award as The Mountain Mover for driving Machine Learning Handover Solution for Mobile Devices. [Q1, 2021]**
 * **Winner of Mobile Business President TM Roh for contribution in “World First 5G Standalone Launch”. [Q3, 2020]**
 * **Winner of  Merit Award  for team solution presented in  5G Ideation Contest  for  gaming solution using QUIC [May 2020]**
 * **Received Samsung Citizen Award as ‘Technical Innovator’ at Samsung Research, Bangalore [H1,2020]**
