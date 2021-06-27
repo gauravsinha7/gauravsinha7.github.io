@@ -12,15 +12,19 @@ menu:
  - page: Awards and Achievements
    url: /awards
 menu_external:
- - title: gauravsinha952@gmail.com
+ - title: mailgaurav.sinha7@gmail.com
    icon: fa-envelope
    url: mailto:gauravsinha952@gmail.com
+ - title: Gaurav Sinha
+   icon: fa-linkedin
+   url: https://www.linkedin.com/in/gauravsinha7/   
  - title: gauravsinha7
    icon: fa-github
    url: https://www.github.com/gauravsinha7
  - title: gaurav_sinha7
    icon: fa-twitter
    url: https://twitter.com/gaurav_sinha7
+   
 mathjax: false
 markdown: kramdown
 encoding: utf-8
