@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 summary: "About this page."
-date: 2020-12-26
+date: 2020-06-26
 layout: projects
 projects:
   - title: "CLRNNQA"
